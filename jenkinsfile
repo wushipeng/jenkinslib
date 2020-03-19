@@ -8,7 +8,7 @@ stages{
 	stage("first"){
 
 		steps{
-			scripts{
+			script{
 				tools.PrintMess("this is dafeng")
 
 			}
