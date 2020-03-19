@@ -1,0 +1,30 @@
+@Library('jenkinslib')
+def tools = new  org.devops.tools()
+
+pipeline{
+agent {node {label 'build'}}
+
+stages{
+	stage{
+
+		steps{
+			scripts{
+				tools.PrintMess("this is dafeng")
+
+			}
+
+		}
+		}
+
+
+	}
+
+
+
+
+}
+
+
+
+
+}
