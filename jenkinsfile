@@ -5,7 +5,7 @@ pipeline{
 agent {node {label 'build'}}
 
 stages{
-	stage{
+	stage("first"){
 
 		steps{
 			scripts{
