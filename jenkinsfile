@@ -9,7 +9,7 @@ stages{
 
 		steps{
 			script{
-				tools.PrintMess("this is dafeng")
+				tools.PrintMess("this is dafeng","green")
 
 			}
 
